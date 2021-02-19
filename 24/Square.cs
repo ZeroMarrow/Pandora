@@ -14,7 +14,7 @@ namespace _24
         public double D1;
         public double X1;
         public double X2;
-        public Square(double a, double b, double c, double resschet, double d1, double d, double x1, double x2, double numberres, double num) : base(numberres, num)
+        public Square(double a, double b, double c, double d1, double d, double x1, double x2, double numberres, double num) : base(numberres, num)
         {
             this.A = a;
             this.B = b;
@@ -24,7 +24,7 @@ namespace _24
             if (D > 0 || D == 0)
             {
                 num = d;
-                resschet = d1;
+                numberres = d1;
                 X1 = x1 = (-b * d1) / (2 * a);
                 X2 = x2 = (-b - d1) / (2 * a);
             }
