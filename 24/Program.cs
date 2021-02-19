@@ -6,7 +6,7 @@ namespace _24
     {
         static void Main(string[] args)
         {
-            Linear a = new Linear(11, 6, 5, 1);
+            Linear a = new Linear(2, 4, 5, 1);
             a.Display();
             Square s = new Square(1, 4, 2, 1, 1, 1, 1, 1, 1);
             s.Display();
